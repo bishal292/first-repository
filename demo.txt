@@ -16,4 +16,8 @@ new or modified file is added to staged state by using "git add <File Name>" OR 
 to commit a  changes: git commit -m "<Message>for the commit is written"
 
 to upload all the commit files on github push command is used.
+    git push origin main
+    Above command is used to push or upload the changes on github
+    where, origin is the name which refers to the remote repository (While clonning a remote repository to local by default remoteRepo is named as origin)
+    And, main is the name of branch in the remote repository
 git push is used to make the changes or commited file available on github(from loacl to remote)
