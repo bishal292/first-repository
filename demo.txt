@@ -2,6 +2,7 @@ This file was created after the linkup of my VS Code with github
 in orer to learn git Bash terminal
 
 For git Uploading files is 2 step process 
+
 1.add: it add a file at staged stage which means change is confirmed and file is ready to commit or be uploaded.
 2.Commit: it finally uploads the file on git.
 
@@ -11,3 +12,8 @@ modified: The files in changes have been made or modified
 staged: File added to git and ready to be committed
 Unmodified: File which is unchanged or same on git and local file
 
+new or modified file is added to staged state by using "git add <File Name>" OR "git add ."
+to commit a  changes: git commit -m "<Message>for the commit is written"
+
+to upload all the commit files on github push command is used.
+git push is used to make the changes or commited file available on github(from loacl to remote)
