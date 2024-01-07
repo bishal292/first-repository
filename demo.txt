@@ -12,12 +12,18 @@ modified: The files in changes have been made or modified
 staged: File added to git and ready to be committed
 Unmodified: File which is unchanged or same on git and local file
 
-new or modified file is added to staged state by using "git add <File Name>" OR "git add ."
-to commit a  changes: git commit -m "<Message>for the commit is written"
+new or modified file is added to staged state by using 
+    git add <File Name>         (Used to add a single file to staged stage)
+    OR
+    git add .                   (Used to add all the new or modified files to stagged stage)
+to commit a  changes: 
+    git commit -m "<Message>for the commit is written"
 
 to upload all the commit files on github push command is used.
+
     git push origin main
-    Above command is used to push or upload the changes on github
-    where, origin is the name which refers to the remote repository (While clonning a remote repository to local by default remoteRepo is named as origin)
-    And, main is the name of branch in the remote repository
+        Above command is used to push or upload the changes on github
+        where, origin is the name which refers to the remote repository (While clonning a remote repository to local by default remoteRepo is named as origin)
+        And, main is the name of branch in the remote repository
+        
 git push is used to make the changes or commited file available on github(from loacl to remote)
